@@ -1,0 +1,90 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% Style and color options
+\moderncvstyle{banking} % Style options: casual, classic, banking, etc.
+\moderncvcolor{blue}    % Color options: blue, orange, green, etc.
+
+% Adjust margins
+\usepackage[scale=0.85]{geometry}
+
+% Personal data
+\name{Junseo}{Min}
+\title{Autonomous Driving SW Developer} % Optional
+\email{minjs4562@gmail.com}
+\social[github]{JunseoMin}
+\social[linkedin]{junseo-min-b638582bb}
+\social[blog]{velog.io/@junseomin/posts}
+
+% Begin document
+\begin{document}
+
+% Header
+\makecvtitle
+
+% Personal statement
+\section{Personal Statement}
+Every moment adds to my value; my worth increases with every passing moment. \\
+My deep interest lies in SLAM, navigation, and deep learning. My ultimate dream is to one day tell my children that I developed the algorithm used in a car.
+
+% Education
+\section{Education}
+\cventry{Major}{Robotics}{Kwangwoon University}{}{}{}
+\cventry{Minor}{Computer Science}{Kwangwoon University}{}{}{}
+
+% Contact & URLs
+\section{Contact \& URLs}
+\cvitem{Email}{\emaillink{minjs4562@gmail.com}}
+\cvitem{GitHub}{\httplink{https://github.com/JunseoMin}}
+\cvitem{LinkedIn}{\httplink{https://www.linkedin.com/in/junseo-min-b638582bb/}}
+\cvitem{Blog (Korean)}{\httplink{https://velog.io/@junseomin/posts}}
+
+% Experience
+\section{Career}
+
+\cventry{2022.6--2024.09}{2022 Samsung Unpack Project - Web QA}{Cheil Worldwide}{Seoul, South Korea}{}{
+\begin{itemize}
+    \item Conducted QA for product description pages and collaborated with overseas teams.
+    \item Developed an interest in software development, leading to a Computer Science minor.
+\end{itemize}}
+
+\cventry{2022.12--2023.12}{Undergraduate Research Assistant}{Ubiquitous \& AI Lab}{Seoul, South Korea}{}{
+\begin{itemize}
+    \item Studied machine learning fundamentals and transformer attention modules through research papers and advisor discussions.
+    \item Developed a stock price prediction model for the KRX competition using TensorFlow and advanced deep learning techniques.
+\end{itemize}}
+
+\cventry{2023.12--2024.09}{Autonomous Driving Developer}{Immersion}{Seoul, South Korea}{}{
+\begin{itemize}
+    \item Built outdoor HD maps and implemented SLAM pipelines for autonomous robots using 3D LiDAR and ROS2.
+    \item Solved technical challenges like sunlight interference and resource limits on Jetson Orin.
+\end{itemize}}
+
+\cventry{2024.06--Present}{Research Intern}{Machine Perception and Intelligence Lab (GIST)}{Gwangju, South Korea}{}{
+\begin{itemize}
+    \item Designed LiDAR reconstruction models using Point Transformer V3 and Perceiver architectures.
+    \item Conducted research on localization-related models and advanced 3D reconstruction techniques
+\end{itemize}}
+
+% Activities
+\section{Activities}
+\cventry{2020.03--2020.11}{Academic Research Club}{Kwangwoon University}{Baram}{}{}
+\cventry{2020.03--2020.11}{Student Council}{Kwangwoon University}{Robotics Department}{}{}
+\cventry{2023.05--2023.10}{Autonomous Driving Technician Training Program}{Kwangwoon University}{}{}{}
+
+
+% Projects
+\section{Projects}
+\cvitem{1. HD Map Implementation}{Developed a high-definition map for advertising robots using ROS and FAST-LIO2. Researched sunlight interference solutions.}
+\cvitem{2. Attention Robot Implementation}{Implemented Stanley controller, path planning, and NDT-OMP localization in ROS2, optimizing performance with OpenMP and Eigen.}
+\cvitem{3. Stock Prediction Model}{Built a Transformer-based stock prediction model using KOSPI data.}
+\cvitem{4. SmartFarm worker assistant Robot} {Developed end-to-end system for mushroom harvesting robot.}
+
+\section{Publications}
+\cvitem{}{\textbf{Junseo Min}, Inseok Jeon, Sumin Lee, Yunkyo Hong, "AI-Based Worker Assistant Robot: Shaping the Future of Smart Farms", ICROS 2023}
+
+\section{Skills \& Interests}
+\cvitemwithcomment{Programming}{C++, Python, ROS1/2, PyTorch}{Strong}
+\cvitemwithcomment{Knowledge}{Java, Serial Data, Computer Vision}{Intermediate}
+\cvitemwithcomment{Interest}{SLAM, Navigation, Localization}{Professional Interests}
+
+\end{document}
